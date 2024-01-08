@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="section">
+      <form action="https://api.web3forms.com/submit" method="POST"  >
+
+        
+        <div>
+          <input
+            type="hidden"
+            name="access_key"
+            value="0bb5690c-f4ae-4321-ab2d-ed52f66038d2" />
+        </div>
+
+        <div>
+            <h2>Contact Us </h4>
+        </div>
+        <!-- Add the necessary input fields for Web3Forms -->
+        <div>
+          <input
+            type="text"
+            name="name"  
+            placeholder="your name"
+            required />
+        </div>
+        <div>
+          <input
+            type="email"
+            name="email" 
+            placeholder="your email"
+            required />
+        </div>
+        <div>
+          <input
+            type="tel"
+            name="your phone" 
+            placeholder="Your Number"
+            required />
+        </div>
+        <div>
+          <textarea
+            required
+            name="message" 
+            cols="30"
+            rows="10"
+            placeholder="your message here"></textarea>
+        </div>
+        <div class="btn">
+          <input type="submit" class="submit"> <!-- Specify the submit button -->
+        </div>
+      </form>
+    </section>
+
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <!-- <script src="./index.js"></script> -->
+  </body>
+</html>
